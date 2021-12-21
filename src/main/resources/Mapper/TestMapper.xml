@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+namespace:绑定一个dao层对应的Mapper接口
+namespace路径  == 对应接口路径
+id：对应方法名
+resultType:返回值类型
+parameterType:参数类型
+-->
+<mapper namespace="com.dao.TestMapper">
+    <!--  查询所有用户  -->
+    <select id="queryUserList" resultType="com.bean.User">
+        select * from night9.user
+    </select>
+</mapper>
