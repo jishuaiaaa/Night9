@@ -30,6 +30,8 @@ public class TestController {
         if (true){
             System.out.println("this is good message");
             System.out.println("this is good message plus");
+
+            System.out.println("this is good message plus");
             return "this is good message ";
         }
         return "message added enquireMessage";
