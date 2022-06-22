@@ -22,6 +22,7 @@ public class TestController {
 
     @RequestMapping(value = "/addMessage", method = RequestMethod.GET)
     public String addMessage(){
+        int i = 1;
         return "message added successfully";
     }
 }
