@@ -25,8 +25,8 @@ public class TestController {
         return "message added successfully";
     }
 
-    @RequestMapping(value = "/enquireMessage", method = RequestMethod.GET)
-    public String enquireMessage(){
+    @RequestMapping(value = "/inquireMessage", method = RequestMethod.GET)
+    public String inquireMessage(){
         return "message added enquireMessage";
     }
 
