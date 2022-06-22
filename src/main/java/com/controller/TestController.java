@@ -29,6 +29,7 @@ public class TestController {
     public String inquireMessage(){
         if (true){
             System.out.println("this is good message");
+            System.out.println("this is good message plus");
             return "this is good message ";
         }
         return "message added enquireMessage";
