@@ -25,4 +25,14 @@ public class TestController {
         int i = 1;
         return "message added successfully";
     }
+
+    @RequestMapping(value = "/inquireMessage", method = RequestMethod.GET)
+    public String inquireMessage(){
+        if (true){
+            return "this is good message ";
+        }
+        return "message added enquireMessage";
+    }
+
+
 }
