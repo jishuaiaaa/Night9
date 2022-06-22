@@ -28,6 +28,7 @@ public class TestController {
     @RequestMapping(value = "/inquireMessage", method = RequestMethod.GET)
     public String inquireMessage(){
         if (true){
+            System.out.println("this is good message");
             return "this is good message ";
         }
         return "message added enquireMessage";
