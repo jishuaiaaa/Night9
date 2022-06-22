@@ -19,4 +19,9 @@ public class TestController {
     public ArrayList<User> queryUserList(){
         return testService.queryUserList();
     }
+
+    @RequestMapping(value = "/addMessage", method = RequestMethod.GET)
+    public String addMessage(){
+        return "message added successfully";
+    }
 }
